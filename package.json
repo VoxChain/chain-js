@@ -1,0 +1,19 @@
+{
+  "name": "find",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "alsatian": "^2.2.1",
+    "golos-js": "^0.5.21"
+  },
+  "devDependencies": {
+    "@steemit/steem-js": "0.7.1"
+  }
+}
