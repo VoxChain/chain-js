@@ -11,9 +11,11 @@
   "license": "ISC",
   "dependencies": {
     "alsatian": "^2.2.1",
-    "golos-js": "^0.5.21"
+    "chance": "^1.0.16",
+    "golos-js": "^0.5.21",
+    "@steemit/steem-js": "0.7.1"
   },
   "devDependencies": {
-    "@steemit/steem-js": "0.7.1"
+    
   }
 }
