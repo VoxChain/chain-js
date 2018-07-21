@@ -2,7 +2,7 @@ const {
    comment,
    createCommentPermlink,
    getNetwork
-}  = require("../lib");
+}  = require("../");
 
 (async (network)=>{
    const POSTING_KEY = ".....";

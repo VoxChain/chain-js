@@ -3,7 +3,7 @@ const {
    accountCreateWithDelegation,
    getNetwork,
    getPrivateKeys
-}  = require("../lib");
+}  = require("../");
 
 var Chance = require('chance');
 const chance = new Chance(Date.now());

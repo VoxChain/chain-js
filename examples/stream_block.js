@@ -1,7 +1,7 @@
 const { 
    streamBlock,
    getNetwork
-}  = require("../lib");
+}  = require("../");
 
 streamBlock(getNetwork("vox"), (err, block)=>{
    if(block.transactions.length > 0) {

@@ -1,7 +1,7 @@
 const { 
    transfer,
    getNetwork
-}  = require("../lib");
+}  = require("../");
 
 (async (network)=>{
    const WIF = "...";

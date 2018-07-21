@@ -7,7 +7,7 @@ const {
    getHardforkVersion, 
    getNextScheduledHardfork,
    getNetwork
-}  = require("../lib");
+}  = require("../");
 
 (async (network)=>{
 

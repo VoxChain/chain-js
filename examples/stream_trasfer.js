@@ -1,7 +1,7 @@
 const { 
    streamBlock,
    getNetwork
-}  = require("../lib");
+}  = require("../");
 
 
 const filter_transfer_operation = (operation) => {

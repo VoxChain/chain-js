@@ -1,4 +1,4 @@
-const {getActiveWitnesses, getWitnessByAccount, getNetwork }  = require("../lib");
+const {getActiveWitnesses, getWitnessByAccount, getNetwork }  = require("../");
 
 (async (network)=>{
    const activeWitnesses = await getActiveWitnesses(network);
