@@ -1,0 +1,9 @@
+[submodule "steem-js"]
+	path = steem-js
+	url = https://github.com/steemit/steem-js.git
+[submodule "vox-js"]
+	path = vox-js
+	url = https://github.com/VoxChain/steem-js.git
+[submodule "vox-js-testnet"]
+	path = vox-js-testnet
+	url = https://github.com/VoxChain/steem-js.git
