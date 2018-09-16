@@ -4,7 +4,8 @@ const {
 }  = require("../");
 
 (async (network)=>{
-   const WIF = "...";
-   const res = await transfer(network, WIF, "vugluskr", "vugluskr", "0.001 GOLD", "vuglusk-memo");
+   console.log("transfer");
+   const WIF = "5JNHfZYKGaomSFvd4NUdQ9qMcEAC43kujbfjueTHpVapX1Kzq2n";
+   const res = await transfer(network, WIF, "initminer", "initminer", "0.001 TESTS", "vuglusk-memo");
    console.log(res);
-})(getNetwork("vox"));
+})(getNetwork("vox_testnet"));

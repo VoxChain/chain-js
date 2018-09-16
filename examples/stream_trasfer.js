@@ -22,16 +22,15 @@ const trasfer_filter_to = (to, operation) => {
    return operation.to === to;
 }
 
-streamBlock(getNetwork("vox"), (err, block)=>{
+streamBlock(getNetwork("vox_testnet"), (err, block)=>{
    if(block.transactions.length > 0) {
       const operations = get_block_operations(block.transactions);
       const transfer = operations.filter(filter_transfer_operation).map(op=>op[1]);
 
-      const account = "vugluskr";
+      const account = "initminer";
 
       const from = transfer.filter(trasfer_filter_from.bind(null, account));
       const to = transfer.filter(trasfer_filter_to.bind(null, account));
-
 
       console.log(from, to);
    }

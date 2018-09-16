@@ -23,4 +23,4 @@ const {
 
    console.log(JSON.stringify(result, null, 2));
 
-})(getNetwork("vox"));
+})(getNetwork("vox_testnet"));
