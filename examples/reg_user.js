@@ -16,7 +16,7 @@ const chance = new Chance(Date.now());
    console.log(NAME, PASS);
 
    const creator = "initminer";
-   const wif = "5JNHfZYKGaomSFvd4NUdQ9qMcEAC43kujbfjueTHpVapX1Kzq2n";
+   const wif = "";
    const fee = "0.000 TESTS";
    const delegation = '5000.000000 VESTS';
    const jsonMetadata= '{}';

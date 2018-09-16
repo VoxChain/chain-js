@@ -71,9 +71,6 @@ const vote = async (network, author, permlink, voteAccount, wif) => {
 
 
 (async (network)=>{
- //  const permlink = createCommentPermlink("initminer");
- //  const res = await comment(network, "5JNHfZYKGaomSFvd4NUdQ9qMcEAC43kujbfjueTHpVapX1Kzq2n", "", "ru-test", "initminer", permlink, "test", "test body", {});
-   const res1 = await vote(network, "initminer", "re-initminer-20180902t213534664z", "initminer", "5JNHfZYKGaomSFvd4NUdQ9qMcEAC43kujbfjueTHpVapX1Kzq2n");
- //  console.log(permlink);
+   const res1 = await vote(network, "initminer", "re-initminer-20180902t213534664z", "initminer", "");
    console.log(res1);
 })(getNetwork("vox"));
